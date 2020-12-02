@@ -5,8 +5,7 @@
 # https://docs.microsoft.com/azure/devops/pipelines/languages/python
 
 trigger:
-  branches:
-  - master
+- master
 
 pool:
   vmImage: 'ubuntu-latest'
